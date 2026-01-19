@@ -1,6 +1,0 @@
-version: "1.0"
-
-capture:
-  build:
-    # No build command for JavaScript
-    clean-command: []
