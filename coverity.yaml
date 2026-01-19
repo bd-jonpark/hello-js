@@ -1,8 +1,6 @@
-connect:
-  url: http://aws-sig-ts-jonpark.aws.internal:18080
-  stream: hello-js
-  project: hello-js
+version: "1.0"
 
 capture:
-  source:
-    - index.js
+  build:
+    # No build command for JavaScript
+    clean-command: []
