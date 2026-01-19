@@ -1,0 +1,8 @@
+connect:
+  url: http://aws-sig-ts-jonpark.aws.internal:18080
+  stream: hello-js
+  project: hello-js
+
+capture:
+  source:
+    - index.js
